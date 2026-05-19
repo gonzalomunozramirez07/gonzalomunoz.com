@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The personal website of Gonzalo Munoz, featuring work, skills, and ways to connect."
+    />
+    <meta property="og:title" content="Gonzalo Munoz | Personal Website" />
+    <meta
+      property="og:description"
+      content="A polished personal website for Gonzalo Munoz."
+    />
+    <meta property="og:type" content="website" />
+    <title>Gonzalo Munoz | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Gonzalo Munoz home">
+        <span class="brand-mark">GM</span>
+        <span>Gonzalo Munoz</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">
+        <span aria-hidden="true">Theme</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Personal website and portfolio</p>
+          <h1>Building thoughtful digital experiences with clarity and momentum.</h1>
+          <p class="hero-copy">
+            I am Gonzalo Munoz, a curious builder focused on clean design,
+            practical technology, and work that feels effortless to use.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#work">View work</a>
+            <a class="button button-secondary" href="#contact">Start a conversation</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Profile highlights">
+          <div class="profile-orb" aria-hidden="true">GM</div>
+          <div>
+            <p class="card-label">Currently focused on</p>
+            <h2>Design-minded web projects</h2>
+            <p>
+              Sharp interfaces, reliable foundations, and polished details that
+              make a personal brand feel memorable.
+            </p>
+          </div>
+          <dl class="stats-grid">
+            <div>
+              <dt>Focus</dt>
+              <dd>Web</dd>
+            </div>
+            <div>
+              <dt>Style</dt>
+              <dd>Clean</dd>
+            </div>
+            <div>
+              <dt>Mode</dt>
+              <dd>Curious</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section split-section" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>A concise home base for who you are and what you are building.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            This site is designed as a polished starting point for a personal
+            presence: direct, visually distinct, and easy to update as your work
+            evolves.
+          </p>
+          <p>
+            The layout leaves room for a stronger biography, featured projects,
+            a resume link, and social profiles whenever you are ready to add
+            them.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Featured work</p>
+          <h2>Selected projects</h2>
+          <p>
+            Replace these cards with your strongest projects, case studies, or
+            highlights.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="project-card">
+            <span class="project-tag">Portfolio</span>
+            <h3>Personal website</h3>
+            <p>
+              A responsive, elegant landing page that introduces your work and
+              gives visitors a clear next step.
+            </p>
+            <a href="#contact" aria-label="Discuss personal website project">Discuss project</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Design</span>
+            <h3>Visual identity refresh</h3>
+            <p>
+              A focused system of typography, color, spacing, and interaction
+              details to make the site feel cohesive.
+            </p>
+            <a href="#skills" aria-label="View skills related to visual identity refresh">
+              View approach
+            </a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Development</span>
+            <h3>Lightweight web foundation</h3>
+            <p>
+              Built with static files for fast loading, simple hosting, and low
+              maintenance.
+            </p>
+            <a href="#about" aria-label="Learn about this lightweight web foundation">
+              Learn more
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills and strengths</p>
+          <h2>What this site is ready to showcase</h2>
+        </div>
+
+        <div class="skill-list" aria-label="Skills list">
+          <span>Web design</span>
+          <span>Frontend development</span>
+          <span>Product thinking</span>
+          <span>Responsive layouts</span>
+          <span>Brand storytelling</span>
+          <span>Project presentation</span>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ready for your real links, resume, and next opportunity.</h2>
+        </div>
+        <div class="contact-card">
+          <p>
+            Add your preferred email, LinkedIn, GitHub, resume, or booking link
+            here. For now, this section is structured so visitors know exactly
+            how to reach you.
+          </p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:hello@example.com">Email me</a>
+            <a class="button button-secondary" href="#" aria-label="LinkedIn profile placeholder">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Gonzalo Munoz. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
