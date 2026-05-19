@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="The personal website of Gonzalo Munoz, featuring work, skills, and ways to connect."
+      content="Gonzalo Munoz builds AI products, RAG platforms, automation systems, and enterprise AI solutions that solve real business problems at scale."
     />
-    <meta property="og:title" content="Gonzalo Munoz | Personal Website" />
+    <meta property="og:title" content="Gonzalo Munoz | AI Product Leader" />
     <meta
       property="og:description"
-      content="A polished personal website for Gonzalo Munoz."
+      content="AI product manager and implementation leader focused on LLMs, RAG, automation, and measurable enterprise outcomes."
     />
     <meta property="og:type" content="website" />
-    <title>Gonzalo Munoz | Personal Website</title>
+    <meta property="og:url" content="https://gonzalomunoz.com/" />
+    <meta property="og:image" content="https://gonzalomunoz.com/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gonzalo Munoz | AI Product Leader" />
+    <meta
+      name="twitter:description"
+      content="Building AI products, RAG platforms, and automation systems that create measurable business impact."
+    />
+    <meta name="theme-color" content="#a45c34" />
+    <title>Gonzalo Munoz | AI Product Leader</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,158 +39,211 @@
         <span>Gonzalo Munoz</span>
       </a>
 
-      <nav class="site-nav" aria-label="Primary navigation">
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
         <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#skills">Skills</a>
+        <a href="#impact">Impact</a>
+        <a href="#skills">Toolkit</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">
-        <span aria-hidden="true">Theme</span>
-      </button>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">
+          <span aria-hidden="true">Theme</span>
+        </button>
+        <button
+          class="menu-toggle"
+          type="button"
+          data-menu-toggle
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
     </header>
 
     <main id="top">
-      <section class="hero section">
+      <section class="hero section reveal">
         <div class="hero-content">
-          <p class="eyebrow">Personal website and portfolio</p>
-          <h1>Building thoughtful digital experiences with clarity and momentum.</h1>
+          <p class="eyebrow">AI product manager and implementation leader</p>
+          <h1>Building AI products that solve real business problems at scale.</h1>
           <p class="hero-copy">
-            I am Gonzalo Munoz, a curious builder focused on clean design,
-            practical technology, and work that feels effortless to use.
+            I turn LLMs, RAG pipelines, automation, and enterprise workflows into products
+            that reduce manual work, accelerate teams, and create measurable outcomes.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="#work">View work</a>
-            <a class="button button-secondary" href="#contact">Start a conversation</a>
+            <a class="button button-primary" href="#impact">See impact</a>
+            <a class="button button-secondary" href="#contact">Connect</a>
           </div>
         </div>
 
-        <aside class="hero-card" aria-label="Profile highlights">
-          <div class="profile-orb" aria-hidden="true">GM</div>
+        <aside class="hero-card reveal" aria-label="Profile highlights">
+          <div class="profile-orb" aria-hidden="true">AI</div>
           <div>
-            <p class="card-label">Currently focused on</p>
-            <h2>Design-minded web projects</h2>
+            <p class="card-label">Current focus</p>
+            <h2>Enterprise AI platforms</h2>
             <p>
-              Sharp interfaces, reliable foundations, and polished details that
-              make a personal brand feel memorable.
+              Product roadmaps, RAG architecture, vector databases, LLM workflows,
+              and cross-functional delivery for high-impact business automation.
             </p>
           </div>
           <dl class="stats-grid">
             <div>
-              <dt>Focus</dt>
-              <dd>Web</dd>
+              <dt>Saved</dt>
+              <dd>50+ hrs</dd>
             </div>
             <div>
-              <dt>Style</dt>
-              <dd>Clean</dd>
+              <dt>Deal flow</dt>
+              <dd>7x</dd>
             </div>
             <div>
-              <dt>Mode</dt>
-              <dd>Curious</dd>
+              <dt>Scale</dt>
+              <dd>9k/mo</dd>
             </div>
           </dl>
         </aside>
       </section>
 
-      <section class="section split-section" id="about">
+      <section class="section split-section reveal" id="about">
         <div>
           <p class="eyebrow">About</p>
-          <h2>A concise home base for who you are and what you are building.</h2>
+          <h2>Technical depth, product judgment, and measurable business outcomes.</h2>
         </div>
         <div class="section-copy">
           <p>
-            This site is designed as a polished starting point for a personal
-            presence: direct, visually distinct, and easy to update as your work
-            evolves.
+            I build AI products that solve real business problems at scale. At RSM, I own
+            the product roadmap for an AI-powered document generation platform serving
+            consultants and coordinate requirements across a distributed team, including
+            offshore engineers.
           </p>
           <p>
-            The layout leaves room for a stronger biography, featured projects,
-            a resume link, and social profiles whenever you are ready to add
-            them.
+            The platform uses vector databases, RAG architecture, and large language
+            models to automate SOX matrices, Visio process flows, and business process
+            narratives, cutting 50+ hours per engagement.
+          </p>
+          <p>
+            My background spans enterprise AI implementation, generative and predictive
+            AI solutions, product management, and technical program management. I combine
+            hands-on technical work with the business judgment of a Berkeley Haas MBA and
+            years of translating complex technical capabilities into measurable outcomes.
           </p>
         </div>
       </section>
 
-      <section class="section" id="work">
-        <div class="section-heading">
-          <p class="eyebrow">Featured work</p>
-          <h2>Selected projects</h2>
+      <section class="section" id="impact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected impact</p>
+          <h2>AI, automation, and data systems with practical business value.</h2>
           <p>
-            Replace these cards with your strongest projects, case studies, or
+            A snapshot of the product, automation, and risk-focused work this site now
             highlights.
           </p>
         </div>
 
         <div class="card-grid">
-          <article class="project-card">
-            <span class="project-tag">Portfolio</span>
-            <h3>Personal website</h3>
+          <article class="project-card reveal">
+            <span class="project-tag">RSM</span>
+            <h3>AI document generation platform</h3>
             <p>
-              A responsive, elegant landing page that introduces your work and
-              gives visitors a clear next step.
+              Owns the roadmap for a consultant-facing platform using RAG, vector
+              databases, and LLMs to automate SOX matrices, process flows, and business
+              narratives.
             </p>
-            <a href="#contact" aria-label="Discuss personal website project">Discuss project</a>
+            <strong>Outcome: 50+ hours cut per engagement</strong>
           </article>
 
-          <article class="project-card">
-            <span class="project-tag">Design</span>
-            <h3>Visual identity refresh</h3>
+          <article class="project-card reveal">
+            <span class="project-tag">Private equity</span>
+            <h3>AI and automation strategy</h3>
             <p>
-              A focused system of typography, color, spacing, and interaction
-              details to make the site feel cohesive.
+              Led Python, RPA, and AI-agent initiatives that scaled sourcing workflows,
+              improved operational leverage, and removed recurring manual tasks.
             </p>
-            <a href="#skills" aria-label="View skills related to visual identity refresh">
-              View approach
-            </a>
+            <strong>Outcome: 7x deal flow and 20+ hours saved weekly</strong>
           </article>
 
-          <article class="project-card">
-            <span class="project-tag">Development</span>
-            <h3>Lightweight web foundation</h3>
+          <article class="project-card reveal">
+            <span class="project-tag">Google</span>
+            <h3>Risk and audit frameworks</h3>
             <p>
-              Built with static files for fast loading, simple hosting, and low
-              maintenance.
+              Designed risk assessment frameworks processing 9,000+ monthly applications
+              and built SQL-driven audit procedures across product, engineering, and ops.
             </p>
-            <a href="#about" aria-label="Learn about this lightweight web foundation">
-              Learn more
-            </a>
+            <strong>Outcome: scalable, data-driven controls</strong>
           </article>
         </div>
       </section>
 
-      <section class="section skills-section" id="skills">
+      <section class="section skills-section reveal" id="skills">
         <div class="section-heading">
-          <p class="eyebrow">Skills and strengths</p>
-          <h2>What this site is ready to showcase</h2>
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Hands-on AI product work from strategy through implementation.</h2>
         </div>
 
         <div class="skill-list" aria-label="Skills list">
-          <span>Web design</span>
-          <span>Frontend development</span>
-          <span>Product thinking</span>
-          <span>Responsive layouts</span>
-          <span>Brand storytelling</span>
-          <span>Project presentation</span>
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Claude and OpenAI APIs</span>
+          <span>RAG pipelines</span>
+          <span>Vector databases</span>
+          <span>NLP</span>
+          <span>Prompt engineering</span>
+          <span>n8n automation</span>
+          <span>AI agents</span>
+          <span>Azure environments</span>
+          <span>Azure Foundry</span>
+          <span>Kubernetes</span>
+          <span>Docker</span>
+          <span>Agile and Scrum</span>
+          <span>Jira</span>
+          <span>OKRs</span>
+          <span>User research</span>
+          <span>Roadmapping</span>
         </div>
       </section>
 
-      <section class="section contact-section" id="contact">
+      <section class="section split-section reveal" id="direction">
+        <div>
+          <p class="eyebrow">Next chapter</p>
+          <h2>Focused on AI product, AI solutions, and AI implementation leadership.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            I am eager to continue my career in AI Product Manager, AI Solutions Lead,
+            or AI Implementation roles where I can take products from zero to one or
+            scale existing AI platforms.
+          </p>
+          <p>
+            I work across product discovery, sprint planning, stakeholder alignment,
+            data-driven prioritization, and technical execution so teams can move from
+            promising AI capability to durable business value.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section reveal" id="contact">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Ready for your real links, resume, and next opportunity.</h2>
+          <h2>Let us connect around AI products, implementation, and scale.</h2>
         </div>
         <div class="contact-card">
           <p>
-            Add your preferred email, LinkedIn, GitHub, resume, or booking link
-            here. For now, this section is structured so visitors know exactly
-            how to reach you.
+            Add your preferred email, LinkedIn, and resume URL here when ready. For now,
+            the public GitHub profile connected to this repository is available below.
           </p>
           <div class="contact-actions">
-            <a class="button button-primary" href="mailto:hello@example.com">Email me</a>
-            <a class="button button-secondary" href="#" aria-label="LinkedIn profile placeholder">
-              LinkedIn
+            <a
+              class="button button-primary"
+              href="https://github.com/gonzalomunozramirez07"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub profile
             </a>
+            <a class="button button-secondary is-disabled" aria-disabled="true">Email coming soon</a>
+            <a class="button button-secondary is-disabled" aria-disabled="true">LinkedIn coming soon</a>
           </div>
         </div>
       </section>
