@@ -2,15 +2,15 @@
   color-scheme: light;
   --bg: #ffffff;
   --bg-soft: #ffffff;
-  --text: #ffffff;
-  --muted: #ffffff;
-  --line: rgba(255, 255, 255, 0.22);
+  --text: #0b1e63;
+  --muted: #2b3354;
+  --line: rgba(11, 30, 99, 0.2);
   --card: rgba(11, 30, 99, 0.92);
   --card-strong: rgba(95, 16, 40, 0.9);
   --accent: #8f122f;
   --accent-strong: #0b1e63;
   --accent-soft: rgba(255, 255, 255, 0.15);
-  --shadow: 0 24px 70px rgba(11, 24, 68, 0.28);
+  --shadow: 0 20px 50px rgba(11, 24, 68, 0.14);
   --radius-lg: 32px;
   --radius-md: 22px;
   --radius-sm: 999px;
@@ -144,7 +144,7 @@ button:focus-visible {
 .theme-toggle,
 .menu-toggle {
   padding: 10px 14px;
-  color: var(--muted);
+  color: #ffffff;
   font: inherit;
   font-size: 0.92rem;
   font-weight: 700;
@@ -155,7 +155,7 @@ button:focus-visible {
 .site-nav a:hover,
 .theme-toggle:hover,
 .menu-toggle:hover {
-  color: var(--text);
+  color: #ffffff;
   background: var(--accent-soft);
   transform: translateY(-1px);
 }
@@ -196,7 +196,7 @@ button:focus-visible {
   padding: 88px 30px;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  background: linear-gradient(140deg, rgba(11, 30, 99, 0.94), rgba(95, 16, 40, 0.92));
+  background: #ffffff;
   box-shadow: var(--shadow);
 }
 
@@ -247,11 +247,14 @@ h3 {
 
 .hero-copy,
 .section-heading p,
-.section-copy,
+.section-copy {
+  color: var(--muted);
+}
+
 .contact-card p,
 .project-card p,
 .hero-card p {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-copy {
@@ -308,6 +311,7 @@ h3 {
 .skills-section {
   border: 1px solid var(--line);
   background: var(--card);
+  color: #ffffff;
   box-shadow: var(--shadow);
   backdrop-filter: blur(18px);
 }
@@ -360,7 +364,7 @@ h3 {
 }
 
 .stats-grid dt {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.76);
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -433,7 +437,7 @@ h3 {
 
 .skill-list span {
   padding: 12px 16px;
-  color: var(--text);
+  color: #ffffff;
   font-weight: 800;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
@@ -470,7 +474,7 @@ h3 {
   color: var(--muted);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  background: linear-gradient(140deg, rgba(11, 30, 99, 0.94), rgba(95, 16, 40, 0.92));
+  background: #ffffff;
   box-shadow: var(--shadow);
 }
 
