@@ -2,8 +2,8 @@
   color-scheme: light;
   --bg: #ffffff;
   --bg-soft: #ffffff;
-  --text: #0b1e63;
-  --muted: #2b3354;
+  --text: #000000;
+  --muted: #000000;
   --line: rgba(11, 30, 99, 0.2);
   --card: rgba(11, 30, 99, 0.92);
   --card-strong: rgba(95, 16, 40, 0.9);
@@ -210,7 +210,7 @@ button:focus-visible {
 
 .eyebrow {
   margin: 0 0 16px;
-  color: rgba(255, 255, 255, 0.86);
+  color: #000000;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.16em;
@@ -291,7 +291,7 @@ h3 {
 }
 
 .button-secondary {
-  color: var(--text);
+  color: #ffffff;
   border-color: var(--line);
   background: var(--card-strong);
 }
